@@ -4,7 +4,7 @@ const c = 'dha';
 
 
 function sum() {
-  return a + b + c
+  return a + b + c;
 }
 
 sum();
