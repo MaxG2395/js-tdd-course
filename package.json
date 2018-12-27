@@ -4,6 +4,8 @@
   "description": "Biblioteca do curso de JS com TDD na pratica.",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/MaxG2395/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/MaxG2395/js-tdd-course#readme"
+  "homepage": "https://github.com/MaxG2395/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.1"
+  }
 }
