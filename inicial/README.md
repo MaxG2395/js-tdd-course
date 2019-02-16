@@ -1,6 +1,6 @@
-# Project Title Test 123 Commit Test Haru
+# Project Title 
 
-2 Paragraph of project description goes here
+Simple calculator project using Git to manage code version.
 
 ## Getting Started
 
